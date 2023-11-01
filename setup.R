@@ -4,7 +4,9 @@
 ## install packages
 
 # list packages you need for your project, update as needed
-packages <- c("tidyverse", "sf", "renv", "quarto")
+packages <- c("tidyverse", "sf", "readxl",
+              "renv", "quarto", "sfdep",
+              "leaflet", "htmltools", "htmlwidgets")
 
 # iterate over character vector to install packages
 lapply(packages, install.packages)
